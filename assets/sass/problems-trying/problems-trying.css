@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#problems--trying {
+  width: 100%;
+  height: auto;
+}
+#problems--trying .container {
+  padding: 35px 283px;
+  margin-top: 200px;
+}
+#problems--trying .container .all {
+  display: flex;
+}
+#problems--trying .container .all .problems_head {
+  margin-bottom: 20px;
+}
+#problems--trying .container .all .problems_head p {
+  margin-bottom: 25px;
+  margin-left: 105px;
+  opacity: 0.7;
+}
+#problems--trying .container .all .problems_head h1 {
+  margin-bottom: 20px;
+}
+#problems--trying .container .all .problems_head span {
+  opacity: 0.7;
+}
+#problems--trying .container .all .try_submit {
+  position: relative;
+  padding: 1px 75px;
+}
+#problems--trying .container .all .try_submit form .try_now {
+  width: 100px;
+  height: 37px;
+  border: 1px solid skyblue;
+  background-color: skyblue;
+  border-radius: 4px;
+  color: #fff;
+  position: absolute;
+  top: 156px;
+  left: -353px;
+}
+#problems--trying .container .all .try_submit form .learn_more {
+  width: 115px;
+  height: 37px;
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  color: skyblue;
+  background-color: #fff;
+  position: absolute;
+  top: 156px;
+  left: -243px;
+}
+#problems--trying .container .all .try_submit .line {
+  border-right: 1px solid black;
+  height: 315px;
+  width: 447px;
+  position: absolute;
+  top: -38px;
+  left: -367px;
+}
+#problems--trying .container .all .info_logo {
+  position: relative;
+}
+#problems--trying .container .all .info_logo .lyft {
+  position: absolute;
+  top: 140px;
+  right: 323px;
+}
+#problems--trying .container .all .info_logo .robin_logo {
+  position: absolute;
+  top: 140px;
+  right: 178px;
+}
+#problems--trying .container .all .info_logo .stripe {
+  position: absolute;
+  top: 130px;
+  right: -33px;
+}/*# sourceMappingURL=problems-trying.css.map */

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#home--design {
+  width: 100%;
+  height: auto;
+}
+#home--design .design_head {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+}
+#home--design .design_head span {
+  margin: 15px;
+}
+#home--design .design_head hr {
+  border: 1px solid black;
+  background-color: black;
+  width: 75%;
+  margin-left: 195px;
+  margin-top: 20px;
+  opacity: 0.2;
+}
+
+#home--info {
+  width: 100%;
+  height: auto;
+}
+#home--info .all {
+  display: flex;
+}
+#home--info .container {
+  padding: 70px 200px;
+}
+#home--info .container .design_text h1 {
+  margin-bottom: 25px;
+}
+#home--info .container .design_text p {
+  opacity: 0.8;
+  margin-bottom: 35px;
+}
+#home--info .container .design_text .line_text {
+  position: relative;
+}
+#home--info .container .design_text .line_text p {
+  opacity: 0.8;
+  margin-left: 20px;
+}
+#home--info .container .design_text .line_text .line {
+  border-right: 3px solid green;
+  height: 69px;
+  width: 1px;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+}
+#home--info .container .design_text .line_text span {
+  opacity: 0.8;
+}
+#home--info .container .room-page {
+  margin: 76px;
+  margin-top: 10px;
+}
+#home--info .container .room-page img {
+  width: 332px;
+  height: 318px;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 3px 4px 0px 3px grey;
+}/*# sourceMappingURL=home_design.css.map */

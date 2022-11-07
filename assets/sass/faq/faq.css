@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(18, 18, 40);
+  color: #fff;
+}
+
+#faq {
+  width: 100%;
+  height: auto;
+}
+#faq .faq_head {
+  text-align: center;
+  margin-top: 70px;
+}
+#faq .faq_head h1 {
+  margin-bottom: 20px;
+}
+#faq .faq_head p {
+  opacity: 0.5;
+}
+
+#faq--info {
+  width: 100%;
+  height: auto;
+}
+#faq--info .container {
+  padding: 75px 284px;
+}
+#faq--info .container .all {
+  display: flex;
+  justify-content: space-between;
+}
+#faq--info .container .faq--all1 .faq_text1 i {
+  color: blue;
+  margin: 2px;
+}
+#faq--info .container .faq--all1 .faq_text1 span {
+  font-weight: 700;
+}
+#faq--info .container .faq--all1 .faq_text1 p {
+  margin-top: 10px;
+  margin-left: 20px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+#faq--info .container .faq--all2 .faq_text2 i {
+  color: blue;
+  margin: 2px;
+}
+#faq--info .container .faq--all2 .faq_text2 span {
+  font-weight: 700;
+}
+#faq--info .container .faq--all2 .faq_text2 p {
+  margin-top: 10px;
+  margin-left: 20px;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+#contact .contact_text {
+  text-align: center;
+}/*# sourceMappingURL=faq.css.map */

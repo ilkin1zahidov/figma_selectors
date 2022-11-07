@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#main--price{
+    width: 100%;
+    height: auto;
+
+  
+    .price_text{
+        
+        margin-top: 50px;
+        text-align: center;
+        h2{
+            margin-bottom: 15px;
+        }
+        p{
+            opacity: 0.7;
+           font-weight: 50;
+        }
+        
+        .monthly{
+            position: relative;
+           
+            span{
+                font-weight: 700;
+                font-size: 16px;
+                margin: 10px;
+                
+            }
+
+            .monthly_range{
+                position: absolute;
+            
+            }
+            
+            margin-top: 20px;
+            .submit_input{
+                width: 100px;
+                height: 27px;
+                border:1px solid skyblue;
+                background-color: skyblue;
+                border-radius: 16px;            
+            }
+            
+        }
+        
+    }
+
+
+}
+
+#pricing--card{
+    width: 100%;
+    height: auto;
+
+    .container{
+        padding: 50px 260px;
+        .box-card{
+            display: flex;
+            justify-content: space-between;
+            .card{
+                width: 300px;
+                height: 525px;
+                border: 1px solid skyblue;
+                border-radius: 4px;
+                transition: 0.4s;
+        
+                &:hover{
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    background-color: black;
+                    color: #fff;
+
+                }
+                .card-head{
+                    text-align: center;
+                    padding-top: 34px;
+                    h1{        
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        opacity: 0.7;
+                        margin-bottom: 33px;
+    
+                    }
+                    .money_month{
+                        font-size: 30px;
+                        font-weight: 700;
+                        color: skyblue;
+                        
+                    }
+                }
+                .card-text{
+                    padding: 45px 49px;
+                    
+                    
+                   form{
+                    
+                    input{
+                        margin: 10px;
+                        width: 18px;
+                        height: 18px;
+                        position: relative;
+                        top: 4px;
+                      
+                    }
+                    span{
+                        font-size: 14px;
+                    
+                    }
+                      .check-off{
+
+                        opacity: 0.2;
+                      
+                      }
+                    .submit_free{
+                        width: 200px;
+                        height: 47px;
+                        margin-top: 23px;
+                        background-color: darkblue;
+                        color: #fff;
+                        border: 1px solid darkblue;
+                        border-radius: 4px;
+                        transform: 0.4s;
+                    
+                        &:hover{
+                            cursor: pointer;
+                            background-color: skyblue;
+                        }
+                    }
+                   }
+                }
+            }
+        }
+       
+    }
+}
+
