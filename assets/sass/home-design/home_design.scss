@@ -14,7 +14,7 @@ body{
         .design_head{
             width: 100%;
             height: 50px;
-            padding:12px;
+            padding: 38px;
         
             text-align: center;
            span{
@@ -39,9 +39,10 @@ body{
     height: auto;
     .all{
         display: flex;
+        justify-content: space-between;
     }
     .container{
-        padding: 70px 200px;    
+        padding: 154px 200px; 
 
       .design_text{
        h1{
@@ -74,8 +75,7 @@ body{
       }
 
       .room-page{
-        margin: 76px;
-        margin-top: 10px;
+     
      
         img{
             width: 332px;

@@ -66,4 +66,9 @@ body {
 
 #contact .contact_text {
   text-align: center;
+}
+#contact .contact_text .contact_support {
+  color: green;
+  font-weight: 700;
+  font-size: 17px;
 }/*# sourceMappingURL=faq.css.map */

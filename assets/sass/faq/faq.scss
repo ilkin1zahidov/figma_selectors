@@ -88,5 +88,11 @@ body{
 #contact{
     .contact_text{
         text-align: center;
+
+        .contact_support{
+            color: green;
+            font-weight: 700;
+            font-size: 17px;
+        }
     }
 }
